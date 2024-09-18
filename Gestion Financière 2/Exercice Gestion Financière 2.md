@@ -85,11 +85,6 @@ $$(92 + 12) * 120 = 12480\unicode{0x20AC}$$
 
 ### Exercice 5 : 
 
-**Contexte** : un point de vente à un chiffre d’affaires annuel de 1 200 000 euros. Le coût d’achat des marchandises vendues est de 840 000 euros. Les charges annuelles de structure du magasin (amortissement du matériel, salaire, consommables, électricité, etc.) sont évaluées à 250 000 euros.
-
-**Travail à faire:** - Indiquez parmi ces deux catégories de charges laquelle est variable et laquelle est fixe. - Présentez le compte de résultat différentiel ou compte de résultat par variabilité et indiquez à quoi correspond le taux de marge sur coût variables. - Calculez le seuil de rentabilité et indiquez sa signification. - Calculez le point mort et indiquez sa signification.
-
-
 |                |           |
 | -------------- | --------- |
 | CA             | 1 200 000 |
@@ -104,13 +99,45 @@ $$(92 + 12) * 120 = 12480\unicode{0x20AC}$$
 | - Cout Fixe       | 250 000   | 21% |
 | = Resultat        | 110 000   | 9%  |
 
-SR = ( 840 000 x 250 000) / 360 000 = 583 333 €
+SR = ( 1 200 000 x 250 000) / 360 000 = 833 333 €
 
-A partir de 583 333€ de CA on devient rentable
+A partir de 833 333€ de CA on devient rentable
 
-Pm = 583 333 x 360 / 1 200 000 = 175
+Pm = 833 333 x 360 / 1 200 000 = 250
 
-L'entreprise doit atteindre le seuil de rentabilité au bout de 175 jours 
+L'entreprise doit atteindre le seuil de rentabilité au bout de 250 jours 
+
+
+## Exercice 6 : 
+
+Contexte : Lamy est propriétaire depuis 15 ans, dans l’agglomération orléanaise (243 000 habitants), d’une entreprise de distribution de matériel informatique à destination des professionnels. Il bénéficie d’une bonne notoriété grâce à son professionnalisme et à la qualité des produits qu’il vend. Afin d’encore mieux satisfaire sa clientèle, il envisage d’étendre son activité en ouvrant une activité de bureautique sur un nouveau point de vente. Un local répondant aux besoins du projet (surface, localisation) est à louer (montant du loyer ; 400 euros par mois). 
+
+Travail à faire : - Établissez le compte de résultat différentiel du nouveau point de vente pour la première année. - Calculez le seuil de rentabilité en valeur. - Déterminez la date à laquelle ce seuil sera atteint. 
+
+Ressource : Informations transmises par M3 Lamy - Le coût d’achat des marchandises devrait représenter 53% du chiffre d’affaires. - Les autres charges variables seraient de 21% du chiffre d’affaires. - L’investissement de départ s’élève à 500 000 euros pour une durée de 10 ans. - Le chiffre d’affaires annuel moyen pour ce type de point de vente est de 250 000 euros. - Le budget publicitaire est estimé à 8 000 euros annuels. - L’activité de l’entreprise est interrompue en août.
+
+
+| Données                  |                       |         |
+| ------------------------ | --------------------- | ------- |
+| Loyer                    | 400€ / mois           | 4800    |
+| Cout achat               | 53% du CA             | 132 500 |
+| Autres charges variables | 21% du CA             | 52 500  |
+| CA                       | 250 000               | 250 000 |
+| Charge fixe Emprunt      | 500 000/10            | 62 800  |
+| Charge pub               | 8 000                 | 8 000   |
+| Charges variables        | 132 500 + 52 500      | 185 000 |
+| Charges Fixes            | 50 000 + 4800 + 8 000 | 62 800  |
 
 
 
+|            | Montant | %CA    |
+| ---------- | ------- | ------ |
+| CA         | 250 000 | 100    |
+| - CV       | 185 000 | 74%    |
+| = Marge CV | 65 000  | 26%    |
+| - CF       | 62 800  | 25,12% |
+| Résultat   | 2200    | 0,88%  |
+
+SR = (62 800 x 250 000) / 65 000 = 241 538,462
+
+Pm = 241 548,462 x 360 / 250 000 = 348 Jours -> 18 Décembres
