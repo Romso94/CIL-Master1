@@ -138,14 +138,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "56d1d2d2f2f66445",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Gestion Financière 2/Gestion Financière 2.md",
+    "Gestion Financière 2/Exercice Gestion Financière 2.md",
+    "Sécurité Systèmes Exploitation/Sécurité Linux.md",
+    "Sécurité Systèmes Exploitation/Unix.md",
+    "Sécurité Systèmes Exploitation/Sécurité Windows.md",
+    "Virtualisation et Stockage/Virtualisation.md",
+    "Communication/Glossaire Dictionnaire.md",
+    "Communication/Cours du 12 septembre.md"
+  ]
 }
