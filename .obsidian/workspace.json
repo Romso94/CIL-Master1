@@ -1,74 +1,39 @@
 {
   "main": {
-    "id": "08c225fb7fbe6b2e",
+    "id": "92df2e26b8851b0e",
     "type": "split",
     "children": [
       {
-        "id": "f3eea2dfa275f9d9",
+        "id": "aeebf94f13ab6c93",
         "type": "tabs",
         "children": [
           {
-            "id": "bf28995412cddeed",
+            "id": "afd8f8305310a0b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sécurité des Réseaux/TP1/TP1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bdb75642c88b865",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Gestion Financière 2/1 - EXERCICES Cout marge.pdf"
-              }
-            }
-          },
-          {
-            "id": "3fbd0c1df0d3f83b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gestion Financière 2/Gestion Financière 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0c04454290cb815",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Communication/Glossaire Dictionnaire.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ef5a8b06236d86f7",
+    "id": "e1313a1a58ccbb40",
     "type": "split",
     "children": [
       {
-        "id": "5930b609cf7fa979",
+        "id": "37f62cc69a9662bb",
         "type": "tabs",
         "children": [
           {
-            "id": "ea209b32a86491b3",
+            "id": "d0e2c2cd173da6ff",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -78,7 +43,7 @@
             }
           },
           {
-            "id": "df0d9baa74e4e3ff",
+            "id": "b3c16a1579c94427",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -93,7 +58,7 @@
             }
           },
           {
-            "id": "6a5494eca2ee6a9a",
+            "id": "b82a3a91a46a22be",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -104,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "6a5a0b864409bc11",
+    "id": "67cf532d7e4c1c2e",
     "type": "split",
     "children": [
       {
-        "id": "27837c3894590962",
+        "id": "5956d117f5b874ff",
         "type": "tabs",
         "children": [
           {
-            "id": "f0644096d32b2102",
+            "id": "8aaf70aee515eaf2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Communication/Glossaire Dictionnaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,19 +97,19 @@
             }
           },
           {
-            "id": "40f518042a42151e",
+            "id": "f4c8d4a8a595f77c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Communication/Glossaire Dictionnaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "340d6a2eb62b1fc1",
+            "id": "ffe5b54f1e6651c6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,25 +120,16 @@
             }
           },
           {
-            "id": "a9a5e6ad0550c12c",
+            "id": "9b9eda435a41424f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md"
+                "file": "Communication/Glossaire Dictionnaire.md"
               }
             }
-          },
-          {
-            "id": "8e2d6cef46dae9f0",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,7 +138,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< HEAD
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -191,48 +148,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56d1d2d2f2f66445",
+  "active": "afd8f8305310a0b0",
   "lastOpenFiles": [
-    "Gestion Financière 2/Gestion Financière 2.md",
-    "Gestion Financière 2/Exercice Gestion Financière 2.md",
-    "Sécurité Systèmes Exploitation/Sécurité Linux.md",
-    "Sécurité Systèmes Exploitation/Unix.md",
-    "Sécurité Systèmes Exploitation/Sécurité Windows.md",
-    "Virtualisation et Stockage/Virtualisation.md",
-    "Communication/Glossaire Dictionnaire.md",
-    "Communication/Cours du 12 septembre.md"
-=======
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
-    }
-  },
-  "active": "d0c04454290cb815",
-  "lastOpenFiles": [
-    "Gestion Financière 2/Gestion Financière 2.md",
-    "Gestion Financière 2/Exercice Gestion Financière 2.md",
-    "Gestion Financière 2/1 - EXERCICES Cout marge.pdf",
+    "Sécurité des Réseaux/TP1/TP1 - Réseaux.excalidraw",
     "Sécurité des Réseaux/TP1/TP1.md",
-    "Excalidraw/Drawing 2024-09-18 09.02.14.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-18 08.14.53.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-17 15.09.52.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-17 15.07.15.excalidraw.md",
-    "Excalidraw",
-    "Sans titre.canvas",
-    "Sécurité des Réseaux/TP1/TP1- Rapport.docx",
-    "Sécurité des Réseaux/TP1",
-    "Sécurité des Réseaux/TP1- Rapport.docx",
-    "Sécurité des SI/Sans titre.md",
-    "Sécurité des Réseaux",
-    "Virtualisation et Stockage/Virtualisation.md",
-    "Sécurité des SI",
-    "Virtualisation et Stockage/Résumé cours virtualisation et stockage.pdf",
     "Sécurité Systèmes Exploitation/Sécurité Linux.md"
->>>>>>> 35092f7b2eab2f16b195258cafe37d71631cb646
   ]
 }
