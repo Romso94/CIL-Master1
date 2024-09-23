@@ -45,11 +45,9 @@
             "id": "d0c04454290cb815",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
-                "mode": "source",
-                "source": false
+                "file": "Sécurité des Réseaux/TP1/TP1 - Réseaux.excalidraw"
               }
             }
           }
@@ -120,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Sécurité des Réseaux/TP1/TP1 - Réseaux.excalidraw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Sécurité des Réseaux/TP1/TP1 - Réseaux.excalidraw",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,12 +158,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md"
+                "file": "Sécurité des Réseaux/TP1/TP1 - Réseaux.excalidraw"
               }
             }
           },
           {
-            "id": "8e2d6cef46dae9f0",
+            "id": "67061c521be813c9",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -194,24 +192,32 @@
   },
   "active": "d0c04454290cb815",
   "lastOpenFiles": [
-    "Gestion Financière 2/Gestion Financière 2.md",
-    "Gestion Financière 2/Exercice Gestion Financière 2.md",
-    "Gestion Financière 2/1 - EXERCICES Cout marge.pdf",
-    "Sécurité des Réseaux/TP1/TP1.md",
     "Excalidraw/Drawing 2024-09-18 09.02.14.excalidraw.md",
+    "Sécurité des Réseaux/TP1/TP1 - Réseaux.excalidraw",
+    "Sécurité des Réseaux/TP1 - Réseaux.excalidraw",
+    "TP1 - Réseaux.excalidraw",
     "Excalidraw/Drawing 2024-09-18 08.14.53.excalidraw.md",
     "Excalidraw/Drawing 2024-09-17 15.09.52.excalidraw.md",
     "Excalidraw/Drawing 2024-09-17 15.07.15.excalidraw.md",
+    "Sécurité des Réseaux/TP1/TP1.md",
+    "Sécurité Systèmes Exploitation/TP1.md",
+    "Communication/Exercices.md",
+    "Communication/Glossaire Dictionnaire.md",
+    "Communication/Cours du 12 septembre.md",
+    "Sécurité des SI/TP1/TP1 - Ozint.md",
+    "Sécurité des SI/Sans titre.md",
+    "Sécurité des SI/TP1",
+    "Sécurité des SI/Sans titre 1.md",
+    "Gestion Financière 2/Exercice Gestion Financière 2.md",
+    "Gestion Financière 2/Gestion Financière 2.md",
+    "Gestion Financière 2/1 - EXERCICES Cout marge.pdf",
     "Excalidraw",
     "Sans titre.canvas",
     "Sécurité des Réseaux/TP1/TP1- Rapport.docx",
     "Sécurité des Réseaux/TP1",
     "Sécurité des Réseaux/TP1- Rapport.docx",
-    "Sécurité des SI/Sans titre.md",
     "Sécurité des Réseaux",
     "Virtualisation et Stockage/Virtualisation.md",
-    "Sécurité des SI",
-    "Virtualisation et Stockage/Résumé cours virtualisation et stockage.pdf",
     "Sécurité Systèmes Exploitation/Sécurité Linux.md"
   ]
 }

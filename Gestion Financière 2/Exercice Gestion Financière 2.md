@@ -140,4 +140,4 @@ Ressource : Informations transmises par M3 Lamy - Le coût d’achat des marchan
 
 SR = (62 800 x 250 000) / 65 000 = 241 538,462
 
-Pm = 241 548,462 x 360 / 250 000 = 348 Jours -> 18 Décembres
+Pm = 241 548,462 x 330 / 250 000 = 318 Jours -> 19 Décembres
