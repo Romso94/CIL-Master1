@@ -213,5 +213,44 @@ $$Van =\sum{FNT\,actualisé-Investissements} = 1.040.394\,\texteuro\, - 1.200.00
 | FNT                                 | (350.000) | 92.000                             | 94.000                             | 86.000                             | 82.000                             | 76.000                             |
 | FNT actualisé                       |           | $$\frac{92.000}{1,0825} = 84.988$$ | $$\frac{94.000}{1,0825} = 80.218$$ | $$\frac{86.000}{1,0825} = 67.798$$ | $$\frac{82.000}{1,0825} = 59.718$$ | $$\frac{76.000}{1,0825} = 51.130$$ |
 $$Van = 343.852\,-350.000 = (6148) $$
-- Solutions Possibles : Chercher un investissement Moins Couteux
+- Solutions Possibles : Chercher un investissement Moins Coûteux
 - Chercher à revendre 
+
+# Exercice 10 
+
+Contexte : Une société de distribution envisage de réaliser une nouvelle implantation dans une zone de chalandise sur laquelle ne figure aucun magasin de l’enseigne. Le coût de l’investissement est évalué à 1 344 000 €, payable à la mise en service.
+
+Durée d’utilisation : 6 ans.
+
+Valeur résiduelle considéré comme nulle.
+
+L’élaboration d’un compte de résultat prévisionnel met en évidence les flux de trésorerie suivants (recettes nettes d’exploitation) :
+
+|         |         |         |         |         |         |
+| ------- | ------- | ------- | ------- | ------- | ------- |
+| Année 1 | Année 2 | Année 3 | Année 4 | Année 5 | Année 6 |
+| 308 000 | 348 000 | 516 000 | 432 000 | 292 000 | 280 000 |
+
+**Missions :**
+
+**Calculer le délai de récupération de cet investissement sans actualisation.**
+
+**Même question en actualisant les sommes à 10 %.**
+
+**Concluez.**
+
+--- 
+
+
+|                                     | Année 0     | Année 1                                     | Année 2                                   | Année 3                                  | Année 4                                   | Année 5                            | Année 6                            |
+| ----------------------------------- | ----------- | ------------------------------------------- | ----------------------------------------- | ---------------------------------------- | ----------------------------------------- | ---------------------------------- | ---------------------------------- |
+| **Encaissement**<br>-Cashflow       | 0           | 308.000                                     | 348.000                                   | 516.000                                  | 432.000                                   | 292.000                            | 280.000                            |
+| **Decaissement**<br>-Investissement | 1.344.000   | 0                                           | 0                                         | 0                                        | 0                                         | 0                                  | 0                                  |
+| Total                               | 1.344.000   | 0                                           | 0                                         | 0                                        | 0                                         | 0                                  | 0                                  |
+| FNT                                 | (1.344.000) | 308.000                                     | 348.000                                   | 516.000                                  | 432.000                                   | 292.000                            | 280.000                            |
+| $$Van$$                             |             | $$Van_1 = 1.344.000 - 308.000 = 1.036.000$$ | $$Van_2 = 1.036.000 - 348.000 = 688.000$$ | $$Van_3 = 688.000 - 512.000 = 172.000 $$ | $$Van_4 = 172.000 - 432.000 = -260.000 $$ |                                    |                                    |
+| FNT Actualisé 10%                   |             | $$\frac{308.000}{1,1} = 280.000$$           | $$\frac{348.000}{1,1²} = 287.603$$        | $$\frac{516.000}{1,1³} = 387.678$$       | $$\frac{432.000}{1,1⁴} = 295.061$$        | $$\frac{292.000}{1,1⁵} = 181.309$$ | $$\frac{280.000}{1,1⁶} = 158.052$$ |
+L'investissement sans actualisation sera amorti  pendant la 4eme année
+$$Van = \sum FNT.Actualisé - Investissement = 1.589.703 - 1.344.000 = 245.703 $$
+
+
