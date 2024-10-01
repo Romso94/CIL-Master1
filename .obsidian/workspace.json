@@ -172,12 +172,24 @@
   },
   "active": "9922b8601131cc90",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Excalidraw/Drawing 2024-10-01 15.00.51.excalidraw.md",
     "Sécurité Systèmes Exploitation/Projet/Projet.md",
     "Excalidraw",
     "Sécurité Systèmes Exploitation/TP1.md",
     "Sécurité Systèmes Exploitation/Projet",
     "Sécurité des SI/TP2/TP2.md",
+=======
+<<<<<<< HEAD
+    "Gestion Financière 2/Gestion Financière 2.md",
+    "Gestion Financière 2/Exercice Gestion Financière 2.md",
+    "Communication/Exercices.md",
+    "Communication/Glossaire Dictionnaire.md",
+    "Communication/Cours du 12 septembre.md",
+    "Gestion Financière 2/EFREI CEFi2 TD N°3.docx",
+=======
+>>>>>>> b37c1d9739efd0d75b1fd2471af749217130901b
+>>>>>>> 9d77060a87d5b4e707cc378473fe3dd4097f126a
     "Sécurité des SI/TP5-lart de caché un message/truc.py",
     "Sécurité des SI/TP5-lart de caché un message/WalpHack_1.png",
     "Sécurité des SI/TP5-lart de caché un message/WalpHack.png",
@@ -185,9 +197,25 @@
     "Sécurité des SI/TP5-lart de caché un message/Remzcore  Gravity_Message .mp3",
     "Sécurité des SI/TP5-lart de caché un message/Remzcore  Gravity .mp3",
     "Sécurité des SI/TP5-lart de caché un message",
+<<<<<<< HEAD
+    "TP5-lart de caché un message/truc.py",
+    "TP5-lart de caché un message/WalpHack_1.png",
+    "TP5-lart de caché un message/WalpHack_1.7z",
+    "TP5-lart de caché un message/WalpHack.png",
+    "TP5-lart de caché un message/TPx5-L'art de caché un message.pdf",
+=======
     "Sécurité des SI/TP4/TPx4-Scénarii Attaque par ransomware.pdf",
     "Sécurité des SI/TP4",
     "Sécurité des SI/TP3/TP3.pdf",
+<<<<<<< HEAD
     "Sécurité des SI/Sans titre.md"
+=======
+    "Sécurité des SI/TP3",
+    "Sécurité des SI/TP2/TP2-Audit de sécurisation dune infrastructure.pdf",
+    "Sécurité des SI/TP1/TP1-Ozint Sécurité des données.pdf",
+>>>>>>> b37c1d9739efd0d75b1fd2471af749217130901b
+    "Sécurité des SI/Sans titre.md",
+    "Sécurité des SI/TP2/TP2.md"
+>>>>>>> 9d77060a87d5b4e707cc378473fe3dd4097f126a
   ]
 }
