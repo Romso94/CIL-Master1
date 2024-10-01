@@ -253,4 +253,83 @@ L’élaboration d’un compte de résultat prévisionnel met en évidence les f
 L'investissement sans actualisation sera amorti  pendant la 4eme année
 $$Van = \sum FNT.Actualisé - Investissement = 1.589.703 - 1.344.000 = 245.703 $$
 
+# Exercice 11 
+
+**Exercice 11**
+
+Contexte : Une société désirant assurer la diversification de sa distribution et son expansion sur de nouveaux marchés envisage d’investir dans un centre d’appels.
+
+Le directeur commercial hésite entre deux équipements plus ou moins automatisés que l’on désignera par A et B, l’équipement B étant le plus sophistiqué et donc le plus cher.
+
+On cherche à évaluer et à comparer les deux investissements en utilisant l’actualisation.
+
+Le taux habituellement retenu par l’entreprise est de 12%.
+
+Le taux d'imposition des sociétés est de 25%.
+
+**Ressource 1 : Information concernant les deux investissements.**
+
+|   |   |   |
+|---|---|---|
+||Équipement A|Équipement B|
+|Coûtd’acquisition|480 000 €|720 000 €|
+|Durée d’utilisation|5 ans|5 ans|
+|Amortissement|Linéaire, taux 20%|Linéaire, taux 20%|
+|Prix unitaire de vente|26 €|26 €|
+|Charges d’exploitations par unité vendue|23 € hors amortissements|22 € pendant 3 ans, 20 € ensuite,  <br> hors amortissement|
+
+**Ressource2 : Ventes prévisionnelles en quantité**
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|Année 1|Année 2|Année 3|Année 4|Année 5|
+|50 000|60 000|70 000|80 000|90 000|
+
+**Investissement A**
+
+|                        |           |                                  |                                    |                                    |                                    |                                     |
+| ---------------------- | --------- | -------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ----------------------------------- |
+| **Années**             | **0**     | **1**                            | **2**                              | **3**                              | **4**                              | **5**                               |
+| **Investissement**     | 480.000   | 0                                | 0                                  | 0                                  | 0                                  | 0                                   |
+| CA                     | 0         | 1.300.000                        | 1.560.000                          | 1.820.000                          | 2.080.000                          | 2.340.000                           |
+| Charges                | 0         | 1.150.000                        | 1.380.000                          | 1.610.000                          | 1.840.000                          | 2.070.000                           |
+| Résultat exploitation  | 0         | 150.000                          | 180.000                            | 210.000                            | 240.000                            | 270.000                             |
+| Impôt sur les Stés     |           | 37.500                           | 45.000                             | 52.500                             | 60.000                             | 67.500                              |
+| Résultat Net           |           | 112.500                          | 135.000                            | 157.500                            | 180.000                            | 202.500                             |
+| Amortissements         |           | 96.000                           | 96.000                             | 96.000                             | 96.000                             | 96.000                              |
+| **Cash-flow**          | 0         | 16.500                           | 39.000                             | 61.500                             | 84.000                             | 106.500                             |
+| **FNT**                | (480.000) | 16.500                           | 39.000                             | 61.500                             | 84.000                             | 106.500                             |
+| **FNT actualisés 12%** |           | $$\frac{16.500}{1,12} = 14.732$$ | $$\frac{39.000}{1,12^2} = 31.090$$ | $$\frac{61.500}{1,12^3} = 43.774$$ | $$\frac{84.000}{1,12^4} = 53.383$$ | $$\frac{106.500}{1,12^5} = 60.430$$ |
+| **VAN**                | -480.000  |                                  |                                    |                                    |                                    |                                     |
+
+**Investissement B**
+
+|                         |       |       |       |       |       |       |
+| ----------------------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| **Années**              | **0** | **1** | **2** | **3** | **4** | **5** |
+| **Investissement**      |       |       |       |       |       |       |
+| CA                      |       |       |       |       |       |       |
+| Charges                 |       |       |       |       |       |       |
+| Amortissements          |       |       |       |       |       |       |
+| Résultat exploitation   |       |       |       |       |       |       |
+| Impôt sur les Stés      |       |       |       |       |       |       |
+| Résultat Net            |       |       |       |       |       |       |
+| Amortissements          |       |       |       |       |       |       |
+| **Cash-flow**           |       |       |       |       |       |       |
+| **FNT**                 |       |       |       |       |       |       |
+| **FNT actualisés 12% ** |       |       |       |       |       |       |
+| **VAN**                 |       |       |       |       |       |       |
+
+**Missions :**
+
+**Compléter le tableau de calcul de la VAN de chaque équipement.**
+
+**Calculer le délai de récupération actualisé de chacun des investissements au taux de 12%.**
+
+**Calculer l’indice de profitabilité de chacun des deux investissements.**
+
+**Donnez un ordre de grandeur au taux de rentabilité de cet investissements (autour de 30%)**
+
+**Faire un choix entre les deux équipements.**
+
 
