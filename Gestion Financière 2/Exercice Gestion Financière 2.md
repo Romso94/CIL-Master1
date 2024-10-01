@@ -269,14 +269,14 @@ Le taux d'imposition des sociétés est de 25%.
 
 **Ressource 1 : Information concernant les deux investissements.**
 
-|   |   |   |
-|---|---|---|
-||Équipement A|Équipement B|
-|Coûtd’acquisition|480 000 €|720 000 €|
-|Durée d’utilisation|5 ans|5 ans|
-|Amortissement|Linéaire, taux 20%|Linéaire, taux 20%|
-|Prix unitaire de vente|26 €|26 €|
-|Charges d’exploitations par unité vendue|23 € hors amortissements|22 € pendant 3 ans, 20 € ensuite,  <br> hors amortissement|
+|                                          |                          |                                                            |
+| ---------------------------------------- | ------------------------ | ---------------------------------------------------------- |
+|                                          | Équipement A             | Équipement B                                               |
+| Coûtd’acquisition                        | 480 000 €                | 720 000 €                                                  |
+| Durée d’utilisation                      | 5 ans                    | 5 ans                                                      |
+| Amortissement                            | Linéaire, taux 20%       | Linéaire, taux 20%                                         |
+| Prix unitaire de vente                   | 26 €                     | 26 €                                                       |
+| Charges d’exploitations par unité vendue | 23 € hors amortissements | 22 € pendant 3 ans, 20 € ensuite,  <br> hors amortissement |
 
 **Ressource2 : Ventes prévisionnelles en quantité**
 
@@ -300,25 +300,26 @@ Le taux d'imposition des sociétés est de 25%.
 | **Cash-flow**          | 0         | 16.500                           | 39.000                             | 61.500                             | 84.000                             | 106.500                             |
 | **FNT**                | (480.000) | 16.500                           | 39.000                             | 61.500                             | 84.000                             | 106.500                             |
 | **FNT actualisés 12%** |           | $$\frac{16.500}{1,12} = 14.732$$ | $$\frac{39.000}{1,12^2} = 31.090$$ | $$\frac{61.500}{1,12^3} = 43.774$$ | $$\frac{84.000}{1,12^4} = 53.383$$ | $$\frac{106.500}{1,12^5} = 60.430$$ |
-| **VAN**                | -480.000  |                                  |                                    |                                    |                                    |                                     |
+
+$$Van = - 276.501 $$
 
 **Investissement B**
 
-|                         |       |       |       |       |       |       |
-| ----------------------- | ----- | ----- | ----- | ----- | ----- | ----- |
-| **Années**              | **0** | **1** | **2** | **3** | **4** | **5** |
-| **Investissement**      |       |       |       |       |       |       |
-| CA                      |       |       |       |       |       |       |
-| Charges                 |       |       |       |       |       |       |
-| Amortissements          |       |       |       |       |       |       |
-| Résultat exploitation   |       |       |       |       |       |       |
-| Impôt sur les Stés      |       |       |       |       |       |       |
-| Résultat Net            |       |       |       |       |       |       |
-| Amortissements          |       |       |       |       |       |       |
-| **Cash-flow**           |       |       |       |       |       |       |
-| **FNT**                 |       |       |       |       |       |       |
-| **FNT actualisés 12% ** |       |       |       |       |       |       |
-| **VAN**                 |       |       |       |       |       |       |
+|                         |           |                                |                                    |                                    |                                      |                                      |
+| ----------------------- | --------- | ------------------------------ | ---------------------------------- | ---------------------------------- | ------------------------------------ | ------------------------------------ |
+| **Années**              | **0**     | **1**                          | **2**                              | **3**                              | **4**                                | **5**                                |
+| **Investissement**      | 720 000   |                                |                                    |                                    |                                      |                                      |
+| CA                      | 0         | 1.300.000                      | 1.560.000                          | 1.820.000                          | 2.080.000                            | 2.340.000                            |
+| Charges                 |           | 1.100.000                      | 1.320.000                          | 1.540.000                          | 1.600.000                            | 1.800.000                            |
+| Résultat exploitation   |           | 200.000                        | 240.000                            | 280.000                            | 480.000                              | 540.000                              |
+| Impôt sur les Stés      |           | 50.000                         | 60.000                             | 70.000                             | 120.000                              | 135.000                              |
+| Résultat Net            |           | 150.000                        | 180.000                            | 210.000                            | 360.000                              | 405.000                              |
+| Amortissements          |           | 144.000                        | 144.000                            | 144.000                            | 144.000                              | 144.000                              |
+| **Cash-flow**           |           | 6.000                          | 36.000                             | 66.000                             | 216.000                              | 261.000                              |
+| **FNT**                 | (720 000) | 6.000                          | 36.000                             | 66.000                             | 216.000                              | 261.000                              |
+| **FNT actualisés 12% ** |           | $$\frac{6.000}{1,12} = 5.357$$ | $$\frac{36.000}{1,12^2} = 28.698$$ | $$\frac{66.000}{1,12^3} = 46.977$$ | $$\frac{216.000}{1,12^4} = 137.271$$ | $$\frac{261.000}{1,12^5} = 148.098$$ |
+
+	 
 
 **Missions :**
 
