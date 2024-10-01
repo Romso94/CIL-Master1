@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Sécurité des SI/TP2/TP2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Sécurité des SI/TP2/TP2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
+                "file": "Sécurité des SI/TP2/TP2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Financière 2/Exercice Gestion Financière 2.md"
+                "file": "Sécurité des SI/TP2/TP2.md"
               }
             }
           },
@@ -142,42 +142,52 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76a938ef4ef8d308",
+  "active": "565c06974281b487",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Gestion Financière 2/Gestion Financière 2.md",
     "Gestion Financière 2/Exercice Gestion Financière 2.md",
     "Communication/Exercices.md",
     "Communication/Glossaire Dictionnaire.md",
     "Communication/Cours du 12 septembre.md",
     "Gestion Financière 2/EFREI CEFi2 TD N°3.docx",
+=======
+>>>>>>> b37c1d9739efd0d75b1fd2471af749217130901b
     "Sécurité des SI/TP5-lart de caché un message/truc.py",
     "Sécurité des SI/TP5-lart de caché un message/WalpHack_1.png",
-    "Sécurité des SI/TP5-lart de caché un message/WalpHack_1.7z",
     "Sécurité des SI/TP5-lart de caché un message/WalpHack.png",
     "Sécurité des SI/TP5-lart de caché un message/TPx5-L'art de caché un message.pdf",
     "Sécurité des SI/TP5-lart de caché un message/Remzcore  Gravity_Message .mp3",
     "Sécurité des SI/TP5-lart de caché un message/Remzcore  Gravity .mp3",
     "Sécurité des SI/TP5-lart de caché un message",
+<<<<<<< HEAD
     "TP5-lart de caché un message/truc.py",
     "TP5-lart de caché un message/WalpHack_1.png",
     "TP5-lart de caché un message/WalpHack_1.7z",
     "TP5-lart de caché un message/WalpHack.png",
     "TP5-lart de caché un message/TPx5-L'art de caché un message.pdf",
+=======
+    "Sécurité des SI/TP4/TPx4-Scénarii Attaque par ransomware.pdf",
+    "Sécurité des SI/TP4",
+    "Sécurité des SI/TP3/TP3.pdf",
+    "Sécurité des SI/TP3",
+    "Sécurité des SI/TP2/TP2-Audit de sécurisation dune infrastructure.pdf",
+    "Sécurité des SI/TP1/TP1-Ozint Sécurité des données.pdf",
+>>>>>>> b37c1d9739efd0d75b1fd2471af749217130901b
     "Sécurité des SI/Sans titre.md",
     "Sécurité des SI/TP2/TP2.md"
   ]
