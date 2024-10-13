@@ -11,6 +11,16 @@
             "id": "d4556383b3db8cc0",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Ethical Hacking/TP_Storm_Breaker.pdf"
+              }
+            }
+          },
+          {
+            "id": "29852f31d3e8404b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Gestion Financière 2/Exercice Gestion Financière 2.md",
@@ -18,8 +28,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4924d3d0f617be0b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,20 +157,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4556383b3db8cc0",
+  "active": "29852f31d3e8404b",
   "lastOpenFiles": [
     "Gestion Financière 2/Gestion Financière 2.md",
     "Gestion Financière 2/Exercice Gestion Financière 2.md",
+    "Ethical Hacking/TP Storm Breaker.md",
+    "Ethical Hacking/TP_iptables.pdf",
+    "Ethical Hacking/TP_Storm_Breaker.pdf",
+    "TP_Storm_Breaker.pdf",
     "Gestion Financière 2/~$REI CEFi2 TD N°3.docx",
     "Excalidraw/Drawing 2024-10-01 15.00.51.excalidraw.md"
   ]

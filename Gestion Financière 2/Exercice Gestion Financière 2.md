@@ -251,6 +251,15 @@ L’élaboration d’un compte de résultat prévisionnel met en évidence les f
 | $$Van$$                             |             | $$Van_1 = 1.344.000 - 308.000 = 1.036.000$$ | $$Van_2 = 1.036.000 - 348.000 = 688.000$$ | $$Van_3 = 688.000 - 512.000 = 172.000 $$ | $$Van_4 = 172.000 - 432.000 = -260.000 $$ |                                    |                                    |
 | FNT Actualisé 10%                   |             | $$\frac{308.000}{1,1} = 280.000$$           | $$\frac{348.000}{1,1²} = 287.603$$        | $$\frac{516.000}{1,1³} = 387.678$$       | $$\frac{432.000}{1,1⁴} = 295.061$$        | $$\frac{292.000}{1,1⁵} = 181.309$$ | $$\frac{280.000}{1,1⁶} = 158.052$$ |
 L'investissement sans actualisation sera amorti  pendant la 4eme année
+
+| Au cours de l'année 4 FNT | 432.000 | 360 |
+| ------------------------- | ------- | --- |
+| Il manque ?               | 172.000 | 144 |
+
+| Au cours de l'année 5 FNT | 181309 | 360 |
+| ------------------------- | ------ | --- |
+| Il manque ?               | 93.656 | 186 |
+
 $$Van = \sum FNT.Actualisé - Investissement = 1.589.703 - 1.344.000 = 245.703 $$
 
 # Exercice 11 
@@ -287,20 +296,22 @@ Le taux d'imposition des sociétés est de 25%.
 
 **Investissement A**
 
-|                        |           |                                  |                                    |                                    |                                    |                                     |
-| ---------------------- | --------- | -------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ----------------------------------- |
-| **Années**             | **0**     | **1**                            | **2**                              | **3**                              | **4**                              | **5**                               |
-| **Investissement**     | 480.000   | 0                                | 0                                  | 0                                  | 0                                  | 0                                   |
-| CA                     | 0         | 1.300.000                        | 1.560.000                          | 1.820.000                          | 2.080.000                          | 2.340.000                           |
-| Charges                | 0         | 1.150.000                        | 1.380.000                          | 1.610.000                          | 1.840.000                          | 2.070.000                           |
-| Résultat exploitation  | 0         | 150.000                          | 180.000                            | 210.000                            | 240.000                            | 270.000                             |
-| Impôt sur les Stés     |           | 37.500                           | 45.000                             | 52.500                             | 60.000                             | 67.500                              |
-| Résultat Net           |           | 112.500                          | 135.000                            | 157.500                            | 180.000                            | 202.500                             |
-| Amortissements         |           | 96.000                           | 96.000                             | 96.000                             | 96.000                             | 96.000                              |
-| **Cash-flow**          | 0         | 16.500                           | 39.000                             | 61.500                             | 84.000                             | 106.500                             |
-| **FNT**                | (480.000) | 16.500                           | 39.000                             | 61.500                             | 84.000                             | 106.500                             |
-| **FNT actualisés 12%** |           | $$\frac{16.500}{1,12} = 14.732$$ | $$\frac{39.000}{1,12^2} = 31.090$$ | $$\frac{61.500}{1,12^3} = 43.774$$ | $$\frac{84.000}{1,12^4} = 53.383$$ | $$\frac{106.500}{1,12^5} = 60.430$$ |
-
+|                        |           |                                    |                                      |                                      |                                      |                                      |
+| ---------------------- | --------- | ---------------------------------- | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| **Années**             | **0**     | **1**                              | **2**                                | **3**                                | **4**                                | **5**                                |
+| **Investissement**     | 480.000   | 0                                  | 0                                    | 0                                    | 0                                    | 0                                    |
+| CA                     | 0         | 1.300.000                          | 1.560.000                            | 1.820.000                            | 2.080.000                            | 2.340.000                            |
+| Charges                | 0         | 1.150.000                          | 1.380.000                            | 1.610.000                            | 1.840.000                            | 2.070.000                            |
+| Amortissements         |           | 96.000                             | 96.000                               | 96.000                               | 96.000                               | 96.000                               |
+| Résultat exploitation  | 0         | 54.000                             | 84.000                               | 114.000                              | 144.000                              | 174.000                              |
+| Impôt sur les Stés     |           | 13.500                             | 21.000                               | 28.500                               | 36.000                               | 43.500                               |
+| Résultat Net           |           | 40.500                             | 63.000                               | 85.500                               | 108.000                              | 130.500                              |
+| **Amortissement**      |           | 96.000                             | 96.000                               | 96.000                               | 96.000                               | 96.000                               |
+| **Cash-flow**          | 0         | 136.500                            | 159.000                              | 181.500                              | 204.000                              | 226.500                              |
+| **FNT**                | (480.000) | 136.500                            | 159.000                              | 181.500                              | 204.000                              | 226.500                              |
+| **FNT actualisés 12%** |           | $$\frac{136.500}{1,12} = 121.875$$ | $$\frac{159.000}{1,12^2} = 126.754$$ | $$\frac{181.500}{1,12^3} = 129.188$$ | $$\frac{204.000}{1,12^4} = 129.646$$ | $$\frac{226.500}{1,12^5} = 128.522$$ |
+| **VAN**                | (480.000) | -358.125                           | -231.371                             | -102.183                             | 27.463                               | 155.985                              |
+LE DRCI est de 3 ans 9 mois et 14 jours
 $$Van = - 276.501 $$
 
 **Investissement B**
@@ -311,26 +322,164 @@ $$Van = - 276.501 $$
 | **Investissement**      | 720 000   |                                |                                    |                                    |                                      |                                      |
 | CA                      | 0         | 1.300.000                      | 1.560.000                          | 1.820.000                          | 2.080.000                            | 2.340.000                            |
 | Charges                 |           | 1.100.000                      | 1.320.000                          | 1.540.000                          | 1.600.000                            | 1.800.000                            |
+| Amortissements          |           | 144.000                        | 144.000                            | 144.000                            | 144.000                              | 144.000                              |
 | Résultat exploitation   |           | 200.000                        | 240.000                            | 280.000                            | 480.000                              | 540.000                              |
 | Impôt sur les Stés      |           | 50.000                         | 60.000                             | 70.000                             | 120.000                              | 135.000                              |
 | Résultat Net            |           | 150.000                        | 180.000                            | 210.000                            | 360.000                              | 405.000                              |
-| Amortissements          |           | 144.000                        | 144.000                            | 144.000                            | 144.000                              | 144.000                              |
 | **Cash-flow**           |           | 6.000                          | 36.000                             | 66.000                             | 216.000                              | 261.000                              |
 | **FNT**                 | (720 000) | 6.000                          | 36.000                             | 66.000                             | 216.000                              | 261.000                              |
 | **FNT actualisés 12% ** |           | $$\frac{6.000}{1,12} = 5.357$$ | $$\frac{36.000}{1,12^2} = 28.698$$ | $$\frac{66.000}{1,12^3} = 46.977$$ | $$\frac{216.000}{1,12^4} = 137.271$$ | $$\frac{261.000}{1,12^5} = 148.098$$ |
+|                         |           |                                |                                    |                                    |                                      |                                      |
 
-	 
+LE DRCI est de 3 ans 9 mois et 26 jours
 
-**Missions :**
+Indice de Profitabilité : 1,32 | 1,41
 
-**Compléter le tableau de calcul de la VAN de chaque équipement.**
+|                         | A       | B         |
+| ----------------------- | ------- | --------- |
+| FNT Actualisé           | 635.985 | 1.015.264 |
+| Investissement          | 480.000 | 720.000   |
+| Indice de Profitabilité | 1.32    | 1.41      |
+Taux interne de rentabilité :  30% 
 
-**Calculer le délai de récupération actualisé de chacun des investissements au taux de 12%.**
-
-**Calculer l’indice de profitabilité de chacun des deux investissements.**
-
-**Donnez un ordre de grandeur au taux de rentabilité de cet investissements (autour de 30%)**
-
-**Faire un choix entre les deux équipements.**
+# Exercice 12 :
 
 
+
+| Investissement | 1.200.000 |
+| -------------- | --------- |
+| Dépense        | 40.000    |
+| CA             | 1.000.000 |
+
+
+
+
+|                       | 0         | 1         | 2         | 3         | 4         | 5         | 6         | 7         | 8         |
+| --------------------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| CA                    | 0         | 1.000.000 | 1.000.000 | 1.000.000 | 1.000.000 | 1.000.000 | 1.000.000 | 1.000.000 | 1.000.000 |
+| Investissement        | 1.040.000 |           |           |           |           |           |           |           |           |
+| Charges               |           | 800.000   | 800.000   | 800.000   | 800.000   | 800.000   | 800.000   | 800.000   | 800.000   |
+| Amortissement         |           | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   |
+| Resultat Exploitation |           | 70.000    | 70.000    | 70.000    | 70.000    | 70.000    | 70.000    | 70.000    | 70.000    |
+| Impot                 |           | 17.500    | 17.500    | 17.500    | 17.500    | 17.500    | 17.500    | 17.500    | 17.500    |
+| Résultat Net          |           | 52.500    | 52.500    | 52.500    | 52.500    | 52.500    | 52.500    | 52.500    | 52.500    |
+| Amortissement         |           | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   | 130.000   |
+| Cash Flow             |           | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   |
+
+
+**Exercice** **13**
+
+Contexte : Voici les données concernant un projet de start up.
+
+Investissement = 90 000 €, Amortissable sur 9 ans
+
+Un emprunt est nécessaire pour financer 1/3 des investissements et La moitié du BFR
+
+C'est un emprunt sur 20 ans à 4% de taux d'intérêt.
+
+|   |   |
+|---|---|
+|CA prévisionnel|2 400 000 €|
+|Taux de marge prévu.|25%|
+|Charges d'exploitation|550 000 €|
+|Taux d'IS|25%|
+
+|   |   |
+|---|---|
+|Délai encaissement clients|60 jours|
+|Délai paiement aux fournisseurs|30 jours|
+
+Le stock représente une réserve de 1 mois
+
+Le montant en trésorerie doit représenter 10% de la valeur des créances clients.
+
+
+
+Compte de résultat
+
+
+|                      |           |
+| -------------------- | --------- |
+| CA                   | 2.400.000 |
+| - Achats             | 1.800.000 |
+| - Autres Charges     | 550.000   |
+|                      |           |
+| EBE                  | 50.000    |
+| - DAP                | 10.000    |
+| Résultat Exploit :   | 40.000    |
+| -Charges financieres | 10.200    |
+|                      |           |
+| Résultat Courant     | 29.800    |
+| - Impots             | 7.450     |
+|                      |           |
+| Résultat NET         | 22.350    |
+
+
+Emprunt = 1/3 * 90.000+ BFR / 2
+
+
+BFR = Stock + Créances - Dettes = 
+
+
+Stocks = 1 moi d'achats = $$\frac{1.800.000 * 30}{360} $$ 
+
+Creances = 60 jours = $$\frac{2.400.000 * 1,2 * 60}{360}$$
+
+Dettes =  30 jours = $$\frac{1.800.000 * 1.2 * 30}{360} $$
+
+BFR = 150 000 + 480 000 - 180 000 = 450 000
+
+Emprunt  = 90.000/3 + 450.000/2 = 255.000 
+
+
+
+Annuité Constante = $$\frac{V_0 * i}{1 - (1 + i)^{-n}} = 18,763\texteuro $$ 
+
+| Années | K dû    | Annuité | Interets | Remboursement |
+| ------ | ------- | ------- | -------- | ------------- |
+| 1      | 255.000 | 18.763  | 10.200   | 8.563         |
+| 2      | 246.437 | 18.763  | 9.857    | 8.906         |
+| 3      | 237.531 | 18.763  | 9.501    | 9.262         |
+
+
+
+
+| Résultat Prévisionel  | N         | N+1 | N+2 |
+| --------------------- | --------- | --- | --- |
+| CA                    | 2.400.000 |     |     |
+| Charges               | 550.000   |     |     |
+| Achats                | 1.800.000 |     |     |
+| Frais Généraux        |           |     |     |
+| Amortissement 1       | 10.000    |     |     |
+| Amortissement 2       | 18.763    |     |     |
+| Résultat Avant Impots |           |     |     |
+| Impot                 |           |     |     |
+| Resultat Net          |           |     |     |
+| CAF                   |           |     |     |
+
+
+Bilan Année 1 
+
+| Actifs                | Passifs              |
+| --------------------- | -------------------- |
+| **Immobilisé**        | **Capitaux Propres** |
+| Investissement 90.000 | Capital 309.213      |
+| -DAP : 10.000         | Résultat Net 22.350  |
+| Valeur Nette 80.000   |                      |
+|                       |                      |
+| **Circulant**         | **Dettes**           |
+| Creances 480.000      | Emrpunt 246.437      |
+| Stocks 150.000        | Fournisseur 180.000  |
+| Tresorerie 48.000     |                      |
+|                       |                      |
+| Total  758.000        | Total 758.000        |
+
+
+Nouveau BFR : 
+Stock 15 j -> 75.000
+Creances 45j -> 360.000
+Dettes 45j ->270.000
+
+BFR = 165.000
+
+Nouvel Emprunt : 30.000 + 82.500 = 112.500
