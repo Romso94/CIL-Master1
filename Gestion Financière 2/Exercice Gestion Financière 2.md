@@ -367,7 +367,7 @@ Taux interne de rentabilité :  30%
 | Cash Flow             |           | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   | 182.500   |
 
 
-**Exercice** **13**
+# **Exercice** **13**
 
 Contexte : Voici les données concernant un projet de start up.
 
@@ -483,4 +483,65 @@ Dettes 45j ->270.000
 BFR = 165.000
 
 Nouvel Emprunt : 30.000 + 82.500 = 112.500
+
+# Exercice 14 
+
+
+
+| CA             | 300.000  |
+| -------------- | -------- |
+| Achats         | 214.286  |
+| Salaires       | 60.000   |
+| Charges        | 40.000   |
+| Amortissements | 6.000    |
+| Résultat       | - 20.286 |
+
+C.A = couts d'achat + marge
+C.A = couts d'achat + 140% marge
+C.A / 140 % = couts d'achat
+
+
+Investissement = 50.000€ d'aménagements 
+Matériel 4000€ donc DAP = 5000€ pour Aménagements et 1000€ pour matériel donc Amortissement = 6.000€
+
+
+
+
+**Bilan Année 1**
+
+| Actif            |         | Passif           |          |
+| ---------------- | ------- | ---------------- | -------- |
+| Actif Immobilisé |         | Capitaux Propres |          |
+| Aménagements     | 50.000  | Capital          | 95700    |
+| Matériel         | 4.000   | Résultat         | - 20.286 |
+| Total            | 54.000  | Total            | 75.414   |
+| Actif Circulant  |         | Dettes           |          |
+| Stock            | 60.000  | Emprunts         | 24.300   |
+| Disponibilités   | 7.143   | Fournisseurs     | 21.429   |
+| Total            | 67.143  | Total            | 45.729   |
+| TOTAL            | 121.143 | TOTAL            | 121.143  |
+Calcul de l'emprunt taux d’intérêt etc pour 27000€ sur 10 ans a 4% -> Emprunts
+
+Fournisseurs = Achats * 20% * 30/360 pcq 30 jours de dettes 
+
+Équilibrer le bilan pour trouver Capital a apporter 
+
+| Actif            |        | Passif           |          |
+| ---------------- | ------ | ---------------- | -------- |
+| Actif Immobilisé |        | Capitaux Propres |          |
+| Aménagements     | 45.000 | Capital          | 37.271   |
+| Matériel         | 3.000  | Résultat         | - 20.286 |
+| Total            | 48.000 | Total            | 17.271   |
+| Actif Circulan   |        | Dettes           |          |
+| Stock            | 15.000 | Emprunts         | 2.300    |
+| Disponibilités   | 10.714 | Fournisseurs     | 32.143   |
+| Total            | 25.714 | Total            | 56.442   |
+| TOTAL            | 73.714 | TOTAL            | 73.714   |
+Si on diminue le capital de 10.000€ la trésorerie diminuera a presque 0 et on ne pourra pas atteindre les objectifs de 5.000 €
+
+BFR = Stock + Creances  - Dettes
+
+
+ 
+
 
