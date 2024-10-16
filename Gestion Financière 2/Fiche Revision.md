@@ -11,6 +11,7 @@ Bilan c'est le patrimoine de l'entreprise a l'instant T :
 	- Ressources temporaires
 	- Besoin Financier
 	- Trésorerie
+	- Neuille
 
 
 Résultat -> Enrichie ou Appauvri le patrimoine de l'entreprise
