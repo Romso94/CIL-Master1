@@ -421,13 +421,13 @@ Emprunt = 1/3 * 90.000+ BFR / 2
 BFR = Stock + Créances - Dettes = 
 
 
-Stocks = 1 moi d'achats = $$\frac{1.800.000 * 30}{360} $$ 
+Stocks = 1 moi d'achats = $$\frac{1.800.000 }{12} $$ 
 
-Creances = 60 jours = $$\frac{2.400.000 * 1,2 * 60}{360}$$
+Creances = 60 jours = $$\frac{2.400.000 * 2 }{12}$$
 
-Dettes =  30 jours = $$\frac{1.800.000 * 1.2 * 30}{360} $$
+Dettes =  30 jours = $$\frac{1.800.000 }{12} $$
 
-BFR = 150 000 + 480 000 - 180 000 = 450 000
+BFR = 150 000 + 400 000 - 150 000 = 400 000
 
 Emprunt  = 90.000/3 + 450.000/2 = 255.000 
 
