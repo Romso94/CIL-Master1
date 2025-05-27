@@ -301,173 +301,129 @@ Le métier regroupe :
 ![[Pasted image 20250526184056.png]]
 
 
-## ✅ **QCM — Innovation et Marketing : La Stratégie**
 
----
+|Lettre|Signification|Description|
+|---|---|---|
+|S|Spécifique|L’objectif doit être clair, précis, sans ambiguïté.|
+|M|Mesurable|On doit pouvoir le quantifier ou l’évaluer.|
+|A|Atteignable (ou Accepté)|L’objectif doit être réaliste, réalisable avec les moyens disponibles.|
+|R|Réaliste (ou Pertinent)|Il doit être cohérent avec les enjeux et les contraintes du contexte.|
+|T|Temporellement défini|Il doit avoir une date limite ou un cadre temporel clair.|
 
-### **1. Qu’est-ce que la croissance interne ?**
+# QCM – Innovation & Marketing (Révision complète)
 
-A) L’acquisition d’une autre entreprise  
-B) Le développement via les ressources propres  
-C) La conquête d’un nouveau marché par fusion  
-D) Une stratégie de diversification internationale
+| #   | Question                                            | A                             | B                               | C                                   | D                      | Bonne Réponse |
+| --- | --------------------------------------------------- | ----------------------------- | ------------------------------- | ----------------------------------- | ---------------------- | ------------- |
+| 1   | Pourquoi fait-on un business plan ?                 | Chercher financement          | Évaluer le marché               | Structurer la stratégie             | Toutes les réponses    | D             |
+| 2   | Le modèle de Rogers classe les adopteurs en ?       | Deux groupes                  | Trois classes                   | Cinq segments                       | Un continuum           | C             |
+| 3   | Qu’est-ce que le MVP ?                              | Produit fini                  | Prototype détaillé              | Version testable minimale           | Business plan          | C             |
+| 4   | Le « job to be done » est lié à ?                   | La technologie                | Le produit                      | Le besoin utilisateur               | La concurrence         | C             |
+| 5   | Lequel n’est pas un critère SMART ?                 | Mesurable                     | Accepté                         | Raisonnable                         | Spécifique             | C             |
+| 6   | Le modèle PESTEL analyse :                          | Environnement politique/légal | Business model                  | Innovation                          | Pitch                  | A             |
+| 7   | Dans un pitch, on ne parle pas de :                 | Équipe                        | Marché                          | Organisation syndicale              | Problème               | C             |
+| 8   | Le design thinking commence par :                   | Prototype                     | Empathie                        | Pitch                               | Étude de marché        | B             |
+| 9   | Qu’est-ce qu’un early adopter ?                     | Investisseur                  | Influenceur                     | Utilisateur curieux                 | Technicien             | C             |
+| 10  | La proposition de valeur est :                      | Une promesse                  | Une fonctionnalité              | Une marque                          | Un budget              | B             |
+| 11  | Dans un Lean Canvas, la case la plus critique est : | Canaux                        | Coûts                           | Problème                            | Revenus                | B             |
+| 12  | Le segment « late majority » représente :           | 13,5%                         | 34%                             | 50%                                 | 2,5%                   | B             |
+| 13  | Un pitch vise à :                                   | Convaincre                    | Planifier                       | Manager                             | Recruter uniquement    | A             |
+| 15  | Le BMC comprend :                                   | 6 blocs                       | 9 blocs                         | 10 blocs                            | 8 blocs                |               |
+| 16  | Objectif du diagnostic stratégique ?                | Créer équipe                  | Trouver idée                    | ==Comprendre env. interne/externe== | Lancer produit         |               |
+| 17  | Stratégie océan bleu = ?                            | Copier marché                 | Créer nouvel espace stratégique | Innover techno                      | Réduire coûts          |               |
+| 18  | Un KPI est :                                        | Méthode de vente              | Indicateur de performance       | Outil financier                     | Plateforme             |               |
+| 19  | Le pitch elevator dure :                            | 1h                            | 10 min                          | 30 sec – 1 min                      | 15 min                 |               |
+| 20  | La méthode Lean Startup repose sur :                | Produit parfait               | Tester/apprendre vite           | Vendre sans produit                 | Attente                |               |
+| 21  | Outil de segmentation ?                             | BMC                           | Persona                         | SWOT                                | PESTEL                 |               |
+| 22  | Stratégie de niche = ?                              | Viser tout marché             | Attaquer un leader              | Viser un segment précis             | Diversifier            |               |
+| 23  | Durée d’un design sprint ?                          | 1 jour                        | 1 semaine                       | 1 mois                              | 1 trimestre            |               |
+| 24  | CAC signifie ?                                      | Client à acheter              | Coût d’acquisition client       | Chiffre après conversion            | Coût après CA          |               |
+| 25  | L’innovation de rupture est :                       | Incrémentale                  | Disruptive                      | Standardisée                        | Réglementaire          |               |
+| 26  | MVP = quelle phase ?                                | Production                    | Test                            | Lancement officiel                  | Croissance             |               |
+| 27  | Un persona est :                                    | Personne réelle               | Hypothèse marché                | Client fictif représentatif         | Investisseur           |               |
+| 28  | L’effet de réseau se voit quand :                   | Usage = valeur accrue         | Coûts baissent                  | Équipe grossit                      | Produit se vend mal    |               |
+| 29  | Partie essentielle d’un pitch ?                     | Prix                          | Storytelling                    | Produit brut                        | Couleur logo           |               |
+| 30  | Le BMC a été popularisé par :                       | Steve Jobs                    | Osterwalder                     | Elon Musk                           | Kotler                 |               |
+| 31  | Majorité des adopteurs (Rogers) ?                   | Innovateurs + early           | Early + late majority           | Laggards                            | Market leaders         |               |
+| 32  | Incoterms servent à ?                               | Fixer taxes                   | Répartir transport et risques   | Fixer devises                       | Gérer licences         |               |
+| 33  | Question essentielle d’un BM ?                      | J’aime produit ?              | Brevetable ?                    | Répond à un besoin ?                | Concurrence ?          |               |
+| 34  | BM > idée seule car ?                               | Vendable seul                 | Idée sans valeur juridique      | Exécution = valeur                  | Idées rejetées         |               |
+| 35  | Outil pr intensité concurrentielle ?                | BCG                           | BMC                             | PESTEL                              | 5 forces de Porter     |               |
+| 36  | Visualiser création de valeur interne ?             | SWOT                          | VPC                             | Chaîne de valeur                    | Matrice segmentation   |               |
+| 37  | Modèle imprimante = ?                               | Low-cost                      | Abonnement                      | Imprimante/rasoir                   | Commission             |               |
+| 38  | Entrée internationale la + engageante ?             | Webstore                      | Franchise                       | Joint venture                       | Greenfield             |               |
+| 39  | Anticorps organisationnels ?                        | Incubateur                    | Invention inutilisable          | Rejet interne                       | Brevet trop tôt        |               |
+| 40  | Plan d’action commercial comprend ?                 | Objectifs mesurables          | Actions datées                  | Benchmark concurrent                | Répartition ressources |               |
+| 41  | Transformer usage sans changer produit = ?          | Disruption techno             | Innovation incrémentale         | Modèle éco                          | Innovation d’usage     |               |
+| 42  | Canal vente = contrôle total ?                      | Webstore                      | Exportateur                     | Franchise                           | Marketplace            |               |
+| 43  | Aligner besoin / offre ?                            | SWOT                          | VPC                             | BMC                                 | 5 forces               |               |
+| 44  | Exemple d’innovation ouverte ?                      | Brevet fermé                  | Co-développement clients        | R&D interne                         | Anti-IA                |               |
+| 45  | Objectif étude qualitative ?                        | Taille marché                 | Tester masse                    | Explorer motivations                | Stock idéal            |               |
+| 46  | Freemium = ?                                        | Premium bas prix              | Accès complet temporaire        | Gratuit de base + options payantes  | Cashback               |               |
+| 47  | Rogers : majorité = ?                               | Early adopters                | Innovators                      | Early + Late majority               | Laggards               |               |
+| 48  | Incoterms définissent ?                             | Taxes                         | Transport + risques             | Taux change                         | Licences               |               |
+| 49  | Question essentielle pour BM ?                      | J’aime ?                      | Brevetable ?                    | Besoin réel ?                       | Concurrence ?          |               |
+| 50  | BM > idée car ?                                     | Vendable seul                 | Idée = sans valeur juridique    | Exécution = valeur                  | Idées détestées        |               |
+| 51  | Intensité concurrentielle :                         | BCG                           | BMC                             | PESTEL                              | 5 forces Porter        |               |
+| 52  | Valeur créée en interne ?                           | SWOT                          | VPC                             | Chaîne de valeur                    | Segmentation           |               |
+| 53  | Modèle rasoir = ?                                   | Low-cost                      | Abonnement                      | Rasoir / capsule                    | Commission             |               |
+| 54  | Plus engageant pour s’implanter ?                   | Webstore                      | Franchise                       | Joint venture                       | Greenfield             |               |
+| 55  | Frein interne à l’innovation ?                      | Incubateur                    | Brevet prématuré                | Rejet d’idée en interne             | Invention ratée        |               |
 
----
 
-### **2. Une stratégie de croissance horizontale implique :**
 
-A) L’intégration des fournisseurs  
-B) L’expansion dans un secteur nouveau  
-C) L’acquisition de concurrents directs  
-D) L’extension vers le secteur logistique
-
----
-
-### **3. Quel est l’objectif principal d’une alliance stratégique ?**
-
-A) Supprimer un concurrent  
-B) Réduire la taille de l’entreprise  
-C) Partager ressources et compétences sur un projet  
-D) Imposer ses prix sur un marché
-
----
-
-### **4. La stratégie "push" consiste à :**
-
-A) Attirer la demande par l’image de marque  
-B) Forcer la pénétration sur un marché  
-C) Réduire les coûts de production  
-D) Créer une offre de niche
-
----
-
-### **5. Parmi ces stratégies génériques, laquelle repose sur un avantage prix ?**
-
-A) Focalisation  
-B) Intégration verticale  
-C) Domination par les coûts  
-D) Différenciation
-
----
-
-### **6. Un DAS (Domaine d’Activité Stratégique) est :**
-
-A) Une unité de production physique  
-B) Une ligne de produit isolée  
-C) Une entité avec marché, concurrents et stratégie propres  
-D) Un service administratif
-
----
-
-### **7. Le principal avantage d’une stratégie de focalisation est :**
-
-A) Des économies d’échelle  
-B) Une notoriété globale  
-C) Une grande réactivité sur un segment précis  
-D) Un coût de production très bas
-
----
-
-### **8. Une entreprise choisissant la différenciation doit :**
-
-A) Minimiser le coût unitaire  
-B) Proposer une offre standardisée  
-C) Se distinguer par des éléments perçus comme uniques  
-D) Éviter la segmentation de marché
-
----
-
-### **9. L’intégration verticale vise à :**
-
-A) Externaliser toutes les fonctions  
-B) Se spécialiser dans un seul produit  
-C) Maîtriser la chaîne de production ou de distribution  
-D) Réduire la diversification des activités
-
----
-
-### **10. Quel est un risque majeur de l’intégration verticale ?**
-
-A) Trop de flexibilité  
-B) Perte de contrôle sur les fournisseurs  
-C) Coûts élevés et difficultés d’intégration  
-D) Manque de données de marché
-
----
-
-### **11. Le mix marketing 4P comprend :**
-
-A) Produit, Processus, Personnel, Publicité  
-B) Produit, Prix, Place, Promotion  
-C) Publicité, Produit, Politique, Portefeuille  
-D) Prix, Production, Performance, Promotion
-
----
-
-### **12. Une entreprise utilisant une stratégie de domination par les coûts cherchera à :**
-
-A) Proposer une offre premium haut de gamme  
-B) Cibler un segment unique avec une offre chère  
-C) Produire à bas coût pour vendre moins cher que ses concurrents  
-D) Minimiser la logistique
-
----
-
-### **13. Quelle stratégie consiste à offrir une solution très différente mais à une cible large ?**
-
-A) Intégration  
-B) Focalisation  
-C) Différenciation  
-D) Domination par les coûts
-
----
-
-### **14. La stratégie orientée client met l’accent sur :**
-
-A) La réduction du cycle de production  
-B) L’optimisation industrielle  
-C) La souplesse organisationnelle et la personnalisation  
-D) La relocalisation des activités
-
----
-
-### **15. L’un des intérêts d’un organigramme réduit dans une stratégie client-centrée est :**
-
-A) Favoriser la spécialisation des tâches  
-B) Renforcer le contrôle hiérarchique  
-C) Accroître la réactivité et la proximité avec le client  
-D) Diminuer les obligations légales
-
----
-
-## 🟩 **CORRIGÉ DU QCM**
-
-1. ✅ B
-    
-2. ✅ C
-    
-3. ✅ C
-    
-4. ✅ B
-    
-5. ✅ C
-    
-6. ✅ C
-    
-7. ✅ C
-    
-8. ✅ C
-    
-9. ✅ C
-    
-10. ✅ C
-    
-11. ✅ B
-    
-12. ✅ C
-    
-13. ✅ C
-    
-14. ✅ C
-    
-15. ✅ C
+| D             |
+| ------------- |
+| C             |
+| C             |
+| C             |
+| B             |
+| A             |
+| C             |
+| B             |
+| C             |
+| A             |
+| C             |
+| B             |
+| A             |
+| A             |
+| B             |
+| C             |
+| B             |
+| B             |
+| C             |
+| B             |
+| B             |
+| C             |
+| B             |
+| B             |
+| B             |
+| B             |
+| C             |
+| A             |
+| B             |
+| B             |
+| C             |
+| B             |
+| C             |
+| C             |
+| D             |
+| C             |
+| C             |
+| D             |
+| C             |
+| C             |
+| D             |
+| A             |
+| B             |
+| B             |
+| C             |
+| C             |
+| C             |
+| B             |
+| C             |
+| C             |
+| D             |
+| C             |
+| C             |
+| D             |
+| C             |
