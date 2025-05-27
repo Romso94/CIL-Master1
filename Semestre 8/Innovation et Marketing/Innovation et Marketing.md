@@ -148,10 +148,7 @@ Le métier regroupe :
 
 > Permet de gérer un portefeuille d’activités
 
-| Taux de croissance ↗ | Part de marché ↘  |
-| -------------------- | ----------------- |
-| **Vedettes**         | **Vaches à lait** |
-| **Dilemmes**         | **Poids morts**   |
+![[Pasted image 20250527235251.png]]
 ## ⚠️ **5. Limites des modèles**
 
 - **PESTEL** : utile si contextualisé, sinon trop généraliste
@@ -199,7 +196,7 @@ Le métier regroupe :
 | Six Chapeaux de Bono      | Analyser une idée sous 6 angles (faits, émotions, créativité,Pessimisme,Optimisme,Organisation)  |
 | Crossing the Chasm        | Faire passer l’innovation des **early adopters** au grand public                                 |
 
-![[arrrr-funnel-table.png]]
+![[les-6-chapeaux-de-bono_expliques_plt.jpg]]
 
 ## 📈 3. **STRATÉGIE D’ENTREPRISE**
 
