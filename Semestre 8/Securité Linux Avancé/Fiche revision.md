@@ -382,3 +382,250 @@ C’est un modèle de sécurité où les règles d’accès sont **imposées par
 - Le MAC renforce la sécurité, car il empêche les utilisateurs ou programmes compromis d’accéder à des ressources sensibles même s’ils ont des droits standards.
     
 - Il est souvent utilisé dans des environnements très sensibles (serveurs, systèmes militaires, etc.).
+
+Dans SELinux, chaque **objet** (fichier, socket, processus...) a un **contexte de sécurité** appelé **Security Context**.
+
+Il est structuré en **3 éléments** principaux :
+
+```bash
+user:role:type
+```
+#### 🔹 Détail :
+
+- **user** → identifiant SELinux (≠ login Linux), ex: `system_u`, `user_u`
+    
+- **role** → rôle attribué au processus (souvent `object_r` pour les fichiers)
+    
+- **type** → élément central du contrôle d’accès **Type Enforcement**, ex: `httpd_t`, `ssh_exec_t`
+
+```shell
+allow user_t bin_t : file { read execute };
+```
+
+### Réponse complète : Pourquoi horodater les logs ?
+
+1. **Analyse post-incident (forensique)** :
+    
+    - Permet de **retracer les événements** : qui a fait quoi, quand.
+        
+    - Utile pour détecter des attaques, connexions non autorisées, effacements de traces, etc.
+        
+2. **Corrélation des événements** :
+    
+    - L’horodatage permet de **croiser les logs** entre plusieurs machines ou services.
+        
+    - S’il y a des **incohérences de dates**, cela peut indiquer un **dérèglement système** ou une **attaque** (ex: modification de l’horloge pour masquer une intrusion).
+        
+3. (Bonus) **Détection de comportements anormaux** :
+    
+    - Fréquence excessive, événements répétitifs, pics d’activité… sont visibles grâce aux horodatages.
+
+## 🕒 Qu’est-ce que **NTP** ?
+
+### ✅ **NTP** = _Network Time Protocol_
+
+> C’est un **protocole réseau** conçu pour **synchroniser l’horloge système** des machines avec une ou plusieurs **sources de temps fiables** (serveurs NTP publics ou internes).
+
+---
+
+### 🔎 Pourquoi c’est **crucial** en sécurité ?
+
+1. ✅ **Précision des horodatages**
+    
+    - Si les logs ne sont pas **synchronisés**, il est **impossible** de faire une corrélation fiable entre machines (ex: serveur web, pare-feu, SIEM...).
+        
+2. ✅ **Détection des attaques**
+    
+    - Si une machine a l’heure déréglée, cela peut cacher une **tentative de masquage** (ex: effacement de trace suivi d’un retour dans le passé).
+        
+    - Des logs sans cohérence temporelle sont **suspicious**.
+        
+3. ✅ **Respect des obligations légales**
+    
+    - Certaines normes (ISO, PCI-DSS, RGPD) exigent des **logs horodatés de manière fiable et traçable**.
+        
+
+---
+
+### 🧰 Comment ça marche ?
+
+- Un client (ta machine) interroge des **serveurs NTP** publics ou privés.
+    
+- Il ajuste son horloge locale en fonction des réponses.
+    
+- Le service s’appelle souvent `ntpd` ou `chronyd`.
+    
+
+---
+
+### 📌 Bonnes pratiques :
+
+- Configurer **plusieurs sources NTP fiables**, internes et/ou publiques (évite le SPOF).
+    
+- Éviter de se fier à une seule horloge externe non authentifiée.
+    
+- Sur réseaux critiques : utiliser des serveurs NTP **internes**, synchronisés entre eux.
+    
+
+---
+
+🧠 En résumé :  
+**"Pas de sécurité sans temps fiable"**. Le NTP est un **fondement invisible mais indispensable**.
+
+
+### 🧪 Cas d’étude : Durcissement OS
+
+📘 **Contexte** :  
+Tu es chargé d’auditer un serveur Linux Debian 12 utilisé comme serveur web interne.
+
+- Services actifs : Apache2, SSH, Cron
+    
+- Utilisateurs avec accès SSH : admin1, devops, testuser
+    
+- SELinux n’est pas installé
+    
+- Pas de système de journalisation avancé
+    
+- Serveur connecté au réseau interne uniquement (pas exposé à Internet)
+    
+
+🎯 **Mission** :  
+En tant qu’expert sécurité, propose un plan de durcissement clair et structuré en précisant :
+
+- Ce que tu vas configurer ou désactiver
+    
+- Pourquoi c’est nécessaire
+    
+- Quels outils tu utiliseras
+    
+
+---
+
+### ❓ Questions à traiter :
+
+1. Quels sont les principes généraux que tu appliquerais pour le durcissement ?
+    
+2. Quels services ou composants méritent une vérification ou désactivation immédiate ?
+    
+3. Quelles mesures de journalisation et surveillance mettrais-tu en place ?
+    
+4. Si SELinux n’est pas utilisable, que peux-tu mettre en place à la place ?
+    
+5. Donne au moins 5 commandes utiles pour mettre en œuvre ou vérifier ce durcissement.
+
+### Rapport d’audit : Plan de durcissement du serveur Debian 12
+
+#### 1. Principes généraux appliqués pour le durcissement
+
+- Réduction de la surface d’attaque : désactivation des services inutiles.
+    
+- Mise en place d’un contrôle strict des accès (authentification forte, gestion des permissions).
+    
+- Surveillance et journalisation centralisées pour détecter les anomalies.
+    
+- Application du principe du moindre privilège (limiter les droits au minimum nécessaire).
+    
+- Protection des fichiers sensibles et des configurations système.
+    
+- Renforcement du noyau et des mécanismes de sécurité (MAC, firewall).
+    
+
+#### 2. Services ou composants à vérifier/désactiver immédiatement
+
+- Vérifier les services actifs et désactiver tous ceux non indispensables au fonctionnement (ex: services réseaux inutilisés).
+    
+- Contrôler la présence et l’usage de fichiers avec le bit SUID/SGID et désactiver ceux non justifiés.
+    
+- Auditer l’accès SSH : désactivation de la connexion root par mot de passe, changement du port par défaut, activation de l’authentification par clé publique uniquement.
+    
+- Vérification des tâches cron et des permissions des scripts associés.
+    
+
+#### 3. Mesures de journalisation et de surveillance à mettre en place
+
+- Installation d’un HIDS comme **AIDE**, **OSSEC** ou **Wazuh** pour surveiller l’intégrité des fichiers.
+    
+- Configuration de **rsyslog** pour la collecte et le transfert des logs vers un serveur distant sécurisé, afin d’éviter la perte de logs en cas d’attaque locale.
+    
+- Mise en place d’**auditd** pour une journalisation fine des événements système.
+    
+- Contrôle des permissions sur les fichiers de logs pour restreindre leur accès aux administrateurs uniquement.
+    
+
+#### 4. Alternatives à SELinux
+
+- Si SELinux ne peut pas être installé, utiliser **AppArmor**, qui est souvent plus simple à déployer sur Debian.
+    
+- Sinon, renforcer la sécurité via des règles de firewall strictes (iptables, nftables), contrôle des accès SSH, et installation d’outils de monitoring/IDS.
+    
+- Durcissement du noyau via la configuration sysctl (ex: protection contre les accès non autorisés aux interfaces réseau, désactivation de modules inutiles).
+    
+
+#### 5. Commandes utiles pour mettre en œuvre ou vérifier le durcissement
+
+- `lynis audit system` — réaliser un audit complet de sécurité.
+    
+- `systemctl list-unit-files --state=enabled` — lister les services activés.
+    
+- `find / -perm -4000` — chercher les fichiers avec bit SUID.
+    
+- `sshd -T` ou `cat /etc/ssh/sshd_config` — vérifier la configuration SSH.
+    
+- `auditctl -l` — lister les règles actives d’auditd.
+    
+- Bonus : `iptables -L -v` ou `firewall-cmd --list-all` — vérifier l’état du firewall.
+    
+
+---
+
+### Conclusion
+
+En appliquant ce plan, on réduit significativement les risques d’intrusion, de compromission et de perte de données sur ce serveur. La combinaison d’un contrôle rigoureux des accès, d’une surveillance renforcée et d’un durcissement système adapté assure une posture sécuritaire robuste.
+
+
+### 1. Explique le fonctionnement de PAM et son rôle dans l’authentification sous Linux
+
+**PAM (Pluggable Authentication Modules)** est un système modulaire qui permet aux applications d’utiliser différentes méthodes d’authentification de manière flexible.
+
+- Au lieu que chaque programme gère l’authentification à sa manière, PAM centralise cette gestion.
+    
+- Chaque service (login, sudo, ssh, etc.) a un fichier de configuration PAM qui spécifie quels modules doivent être utilisés (mot de passe, biométrie, LDAP, etc.).
+    
+- Cela facilite l’ajout ou la modification des méthodes d’authentification sans changer le programme.
+
+### 2. Quelle différence entre type enforcement et role-based access control dans SELinux ?
+
+- **Type Enforcement (TE)** est le mécanisme principal de SELinux. Il associe un type (label) aux fichiers, processus, etc., et définit quelles actions sont permises entre les types (ex : le processus httpd_t peut lire les fichiers httpd_sys_content_t).
+    
+- **Role-Based Access Control (RBAC)** est un système qui attribue des rôles aux utilisateurs/processus, chaque rôle ayant un ensemble de permissions et domaines autorisés.  
+    **En résumé :** TE contrôle les interactions entre objets et processus, RBAC contrôle quels rôles un utilisateur peut adopter.
+
+### 3. Que se passe-t-il lorsqu’un processus lance un autre processus dans SELinux ? (transition de domaine)
+
+Quand un processus lance un autre processus (par exemple, un shell qui lance un script), SELinux peut changer automatiquement le **domaine (type)** du nouveau processus selon des règles appelées **transition de domaine**.  
+Cela permet de s’assurer que le nouveau processus a les permissions adaptées, souvent plus restreintes, pour limiter les risques.
+
+- Pour voir si SELinux est activé et son mode :
+
+```
+sestatus
+```
+
+### 5. Qu’est-ce qu’une politique SELinux de type targeted par rapport à une politique strict ?
+
+- **Targeted** est la politique par défaut sur beaucoup de distributions. Elle applique des règles SELinux seulement à certains services critiques (ex : Apache, sshd). Le reste du système est en mode permissif.
+    
+- **Strict** applique des règles SELinux très strictes à **tous** les processus du système, ce qui offre plus de sécurité mais demande une configuration beaucoup plus complexe.
+
+### 6. Comment écrire une règle simple SELinux pour autoriser un processus à lire un fichier ?
+
+Une règle typique ressemble à ça :
+```Selinux
+allow process_type file_type:file { read open };
+```
+
+- **Enforcing** : SELinux applique strictement les règles et bloque les actions non autorisées.
+    
+- **Permissive** : SELinux ne bloque rien, mais loggue ce qui aurait été bloqué. Utile pour débogage.
+    
+- **Disabled** : SELinux est désactivé, aucune règle n’est appliquée.
