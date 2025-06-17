@@ -629,3 +629,21 @@ allow process_type file_type:file { read open };
 - **Permissive** : SELinux ne bloque rien, mais loggue ce qui aurait été bloqué. Utile pour débogage.
     
 - **Disabled** : SELinux est désactivé, aucune règle n’est appliquée.
+
+
+
+
+Permissions SUID/SGID 4750
+LD_PRELOAD
+Moindre Privilege 
+Race conditions 
+Service Approach 
+PATH variable
+ISOLEMENT PAS DE SYSTEM() avec SUID
+PAM
+Journaux d'evenements 
+rsyslog auditd
+hordatage des logs HIDS
+SELINUX : MAC/DAC - Bell-LaPadula Model -> MLS - Type Enforcement -> Type security context user:role:type - type for object / domain for proces - allow rule (Source Type - Target Type - Object Type - Permissions) - Domain transition -> type transition - Role-based access control - 
+
+Process isolation - Cgroup - Namespaces - kernel capabilities - SECCOMP
