@@ -1,0 +1,71 @@
+{
+  "project_name": "CyberScan SaaS Prototype",
+  "description": "Solution SaaS innovante permettant de déployer facilement des agents sur des serveurs pour auditer des réseaux ou serveurs cibles. L'application web sert de dashboard central pour créer, déployer et superviser les agents, exécuter des scans et visualiser les résultats.",
+  "objectives": [
+    "Permettre aux TPE/PME de lancer des scans automatisés sur leurs serveurs avec un agent léger.",
+    "Fournir un dashboard centralisé pour visualiser les résultats des scans et l'état des agents.",
+    "Démontrer un prototype fonctionnel facilement déployable sur une seule machine."
+  ],
+  "architecture": {
+    "overview": "Frontend React / Vue <-> Backend FastAPI <-> Agents Python déployés sur serveurs cibles",
+    "components": [
+      {
+        "name": "Frontend / Dashboard",
+        "role": "Créer et configurer des agents, lancer des scans, visualiser les résultats.",
+        "tech_stack": ["React or Vue.js", "HTML/CSS/JS", "API calls to backend"]
+      },
+      {
+        "name": "Backend / API",
+        "role": "Gérer l'enregistrement des agents, stocker les tâches et résultats, servir le script d'installation dynamique pour les agents.",
+        "tech_stack": ["FastAPI", "SQLite pour prototype", "Postgres pour production"]
+      },
+      {
+        "name": "Agent",
+        "role": "Daemon léger ou conteneur Python qui s'enregistre auprès du serveur, pull les tâches, exécute les scans et envoie les résultats.",
+        "tech_stack": ["Python", "Option Docker pour encapsuler outils comme Nmap, Nuclei, Subfinder"]
+      }
+    ]
+  },
+  "workflow": {
+    "steps": [
+      "Utilisateur clique 'Créer agent' dans le dashboard -> backend génère script d'installation unique avec token/API URL.",
+      "Utilisateur déploie l'agent sur serveur cible via curl | bash : `curl -sSL https://monserveur.com/install-agent.sh | bash`.",
+      "Agent s'enregistre auprès du serveur et commence à envoyer des heartbeats.",
+      "Agent récupère les tâches via API, exécute les scans, envoie les résultats.",
+      "Dashboard centralise et affiche les résultats en temps réel ou quasi réel."
+    ]
+  },
+  "deployment": {
+    "method": "One-liner curl | bash",
+    "script_role": [
+      "Télécharger l'agent (Python ou Docker)",
+      "Configurer token/API URL",
+      "Lancer l'agent en background ou comme service"
+    ]
+  },
+  "features": [
+    "Création et déploiement dynamique d'agents",
+    "Pull tasks simple et exécution sandboxée",
+    "Heartbeat pour monitoring agents",
+    "Tableau de bord web pour visualisation des scans et résultats",
+    "Résultats exportables (CSV / PDF)",
+    "Prototype simple, sans queue externe ni service complexe",
+    "Déploiement facile via script curl | bash"
+  ],
+  "future_enhancements": [
+    "WebSocket pour communication temps réel",
+    "Planification automatique des scans",
+    "Multi-tenant et gestion fine des permissions",
+    "Mise à jour automatique des agents",
+    "Analyse et normalisation des résultats pour reporting avancé"
+  ],
+  "stack_summary": {
+    "frontend": "React/Vue ou template FastAPI Jinja",
+    "backend": "FastAPI ou Go Gin",
+    "database": "SQLite pour prototype / Postgres pour production",
+    "agent": "Python MVP / Go production, Docker optionnel",
+    "communication": "REST JSON via HTTPS avec token auth"
+  },
+  "team_size": 5,
+  "goal_duration": "3 months"
+}
